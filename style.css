@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4b4b4b;
+}
+
+.top{
+    background-color: #6e6e6e;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+
+    .cubo{
+        background-color: #2e2e2e;
+        height: 100%;
+        aspect-ratio: 1/1;
+        border: 5px red;
+        display: flex;
+    }
+}
