@@ -10,7 +10,7 @@ body{
 
 header{
     background-color: #686868;
-    height: 6vh;
+    height: 7vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -35,13 +35,13 @@ header{
         height: 30%;
         aspect-ratio: 4/1;
         display: flex;
-        margin-right: 4%
+        margin-right: 4%;
     }
 }
 
 nav{
     background-color: #444444;
-    height: 14vh;
+    height: 18vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ nav{
         aspect-ratio: 10/1;
         display: flex;
         margin-left: 3%;
-        margin-top: 1.5%
+        margin-top: 1.5%;
     }
 
     .rectangulo_blanco{
@@ -60,7 +60,7 @@ nav{
         height: 30%;
         aspect-ratio: 9/1;
         display: flex;
-        margin-left: auto
+        margin-left: auto;
     }  
 
     .cuadrado_naranja{
@@ -69,5 +69,35 @@ nav{
         aspect-ratio: 1/1;
         display: flex;   
         margin-right: 4%;
+    }
+}
+
+main{
+    background-color: #686868;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.4%;
+
+    section{
+        background-color: #3a3a3a;
+        height: 60vh;
+        width: 25%;
+        margin-left: 4%;
+
+        .rectangulo_negro_grande{
+            background-color:#b4b4b4;
+            height: 50vh;
+            width: 100%;
+            
+            .rectangulo_gris{
+                background-color: #3e3e3e;
+                height: 30%;
+                aspect-ratio: 4/1;
+                display: flex;
+                margin-right: 4%;
+            }
+        }
     }
 }
