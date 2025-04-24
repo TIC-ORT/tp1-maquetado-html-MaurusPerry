@@ -45,7 +45,7 @@ nav{
     width: 100%;
     display: flex;
     align-items: center;
-    
+
     .linea_baja{
         background-color: #b4b4b4;
         height: 7%;
@@ -74,30 +74,70 @@ nav{
 
 main{
     background-color: #686868;
-    height: 70vh;
+    height: 120vh;
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 1.4%;
 
     section{
         background-color: #3a3a3a;
-        height: 60vh;
+        height: 85%;
         width: 25%;
         margin-left: 4%;
 
         .rectangulo_negro_grande{
-            background-color:#b4b4b4;
-            height: 50vh;
+            background-color:#3a3a3a;
+            height: 10%;
             width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             
-            .rectangulo_gris{
-                background-color: #3e3e3e;
-                height: 30%;
-                aspect-ratio: 4/1;
+            .cuadrado_gris{
+                background-color: #b4b4b4;
+                height: 15%;
+                aspect-ratio: 1/1;
                 display: flex;
-                margin-right: 4%;
             }
+
+            .rectangulo_gris{
+                background-color: #b4b4b4;
+                height: 15%;
+                width: 65%;
+                display: flex;
+                margin: 4%;
+            }
+        }
+    }
+
+    aside{
+        background-color: #ffffff;
+        height: 50%;
+        width: 63%;
+        margin-left: 4%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 20%;
+        .triangulo_izquierdo{
+
+        }
+
+        .cuadrado_rojo{
+            background-color: #ff8c00;
+            height: 100%;
+            aspect-ratio: 1.5/1;
+            display: flex;
+            
+            .triagulo_blanco{
+
+            }
+        }
+
+        .triangulo_derecha{
+            
         }
     }
 }
