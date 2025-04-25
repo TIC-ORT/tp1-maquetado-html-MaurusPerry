@@ -111,33 +111,62 @@ main{
     }
 
     aside{
-        background-color: #ffffff;
-        height: 50%;
+        background-color: solid transparent;
+        background-color: green;
+        height: 85%;
         width: 63%;
         margin-left: 4%;
 
         display: flex;
-        align-items: center;
+        /*align-items: center;*/
         justify-content: center;
-
-        margin-bottom: 20%;
+        
+        
         .triangulo_izquierdo{
+            width: 0;
+            height: 0;
+            border-top: 4vh solid transparent;
+            border-bottom: 4vh solid transparent;
+            border-right: 4vh solid white; 
 
+            margin-top: 12.5%;
         }
 
         .cuadrado_rojo{
             background-color: #ff8c00;
-            height: 100%;
-            aspect-ratio: 1.5/1;
-            display: flex;
-            
-            .triagulo_blanco{
+            height: 40%;
+            aspect-ratio: 1.8/1;
+            margin-left: 6%;
+            margin-right: 6%;
 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .triangulo_blanco{
+                border-top: 5vh solid transparent;
+                border-bottom: 5vh solid transparent;
+                border-left: 10vh solid white;
             }
         }
 
         .triangulo_derecha{
-            
+            width: 0;
+            height: 0;
+            border-top: 4vh solid transparent;
+            border-bottom: 4vh solid transparent;
+            border-left: 4vh solid white;
+
+            margin-top: 12.5%;
+        }
+
+        .recommended{
+            background-color: solid transparent;
+            background-color: red;
+            height: 20%;
+            width: 100%;
+
+            display: flex;
         }
     }
 }
