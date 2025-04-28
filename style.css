@@ -76,6 +76,7 @@ main{
     background-color: #686868;
     height: 120vh;
     width: 100%;
+
     display: flex;
     align-items: center;
 
@@ -115,58 +116,90 @@ main{
         background-color: green;
         height: 85%;
         width: 63%;
+
         margin-left: 4%;
-
-        display: flex;
-        /*align-items: center;*/
-        justify-content: center;
         
-        
-        .triangulo_izquierdo{
-            width: 0;
-            height: 0;
-            border-top: 4vh solid transparent;
-            border-bottom: 4vh solid transparent;
-            border-right: 4vh solid white; 
-
-            margin-top: 12.5%;
-        }
-
-        .cuadrado_rojo{
-            background-color: #ff8c00;
-            height: 40%;
-            aspect-ratio: 1.8/1;
-            margin-left: 6%;
-            margin-right: 6%;
+        .youtube{
+            background-color: solid transparent;
+            background-color: red;
+            width: 100%;
+            height: 60%;
 
             display: flex;
-            align-items: center;
+            /*align-items: center;*/
             justify-content: center;
+
+            .triangulo_izquierdo{
+                width: 0;
+                height: 0;
+                border-top: 4vh solid transparent;
+                border-bottom: 4vh solid transparent;
+                border-right: 4vh solid white; 
+
+                margin-top: 19%;
+            }
+
+            .cuadrado_rojo{
+                background-color: #ff8c00;
+                height: 95%;
+                aspect-ratio: 1.8/1;
+                margin-left: 6%;
+                margin-right: 6%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
             
-            .triangulo_blanco{
-                border-top: 5vh solid transparent;
-                border-bottom: 5vh solid transparent;
-                border-left: 10vh solid white;
+                .triangulo_blanco{
+                    border-top: 5vh solid transparent;
+                    border-bottom: 5vh solid transparent;
+                    border-left: 10vh solid white;
+                }
+            }
+
+            .triangulo_derecha{
+                width: 0;
+                height: 0;
+                border-top: 4vh solid transparent;
+                border-bottom: 4vh solid transparent;
+                border-left: 4vh solid white;
+
+                margin-top: 19%;
             }
         }
 
-        .triangulo_derecha{
-            width: 0;
-            height: 0;
-            border-top: 4vh solid transparent;
-            border-bottom: 4vh solid transparent;
-            border-left: 4vh solid white;
-
-            margin-top: 12.5%;
-        }
-
-        .recommended{
+        .youtube_videos{
             background-color: solid transparent;
-            background-color: red;
-            height: 20%;
+            background-color: rgb(17, 0, 255);
             width: 100%;
+            height: 40%;
 
             display: flex;
+            align-items: flex-end;
+            justify-content: center;
+
+            .recommended{
+                background-color: solid transparent;
+                background-color: black;
+                height: 84%;
+                width: 23.7%;
+
+                display: flex;
+
+                margin-left: 2%;
+                margin-right: 2%;
+                
+                .reccomended_box{
+                    background-color: solid transparent;
+                    background-color: rgb(255, 255, 255);
+                    height: 50%;
+                    width: 100%;
+                }
+
+                .recommended_text{
+                    
+                }
+            }
         }
     }
 }
