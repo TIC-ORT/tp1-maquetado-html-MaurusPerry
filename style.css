@@ -5,11 +5,11 @@
 }
 
 body{
-    background-color: #4b4b4b;
+    background-color: #656A73;
 }
 
 header{
-    background-color: #686868;
+    background-color: #656A73;
     height: 7vh;
     width: 100%;
     display: flex;
@@ -17,10 +17,19 @@ header{
     gap: 1.4%;
 
     .cuadrado{
-        background-color: #3e3e3e;
+        background-color: #474F59;
         height: 55%;
         aspect-ratio: 1/1;
         display: flex;
+    }
+
+    .cuadrado1{
+        background-color: #474F59;
+        height: 55%;
+        aspect-ratio: 1/1;
+        display: flex;
+
+        margin-left: 4%
     }
 
     .rectangulo_blanco{
@@ -30,8 +39,17 @@ header{
         display: flex;
     }
 
+    .rectangulo_blanco1{
+        background-color: #ffffff;
+        height: 30%;
+        aspect-ratio: 8/1;
+        display: flex;
+
+        margin-left: auto
+    }
+
     .rectangulo_gris{
-        background-color: #3e3e3e;
+        background-color: #474F59;
         height: 30%;
         aspect-ratio: 4/1;
         display: flex;
@@ -40,19 +58,30 @@ header{
 }
 
 nav{
-    background-color: #444444;
+    background-color: #474F59;
     height: 18vh;
     width: 100%;
     display: flex;
     align-items: center;
 
     .linea_baja{
-        background-color: #b4b4b4;
+        background-color: #C8C7C7;
         height: 7%;
         aspect-ratio: 10/1;
         display: flex;
         margin-left: 3%;
         margin-top: 1.5%;
+    }
+
+    .linea_baja1{
+        background-color: #C8C7C7;
+        height: 7%;
+        aspect-ratio: 10/1;
+        display: flex;
+        margin-left: 3%;
+        margin-top: 1.5%;
+
+        margin-left: 4%
     }
 
     .rectangulo_blanco{
@@ -64,7 +93,7 @@ nav{
     }  
 
     .cuadrado_naranja{
-        background-color: #ff8c00;
+        background-color: #FF9978;
         height: 30%;
         aspect-ratio: 1/1;
         display: flex;   
@@ -73,7 +102,7 @@ nav{
 }
 
 main{
-    background-color: #686868;
+    background-color: #656A73;
     height: 120vh;
     width: 100%;
 
@@ -81,13 +110,12 @@ main{
     align-items: center;
 
     section{
-        background-color: #3a3a3a;
         height: 85%;
         width: 25%;
         margin-left: 4%;
 
         .rectangulo_negro_grande{
-            background-color:#3a3a3a;
+            background-color:#474F59;
             height: 10%;
             width: 100%;
             display: flex;
@@ -95,14 +123,38 @@ main{
             justify-content: center;
             
             .cuadrado_gris{
-                background-color: #b4b4b4;
+                background-color: #656A73;
                 height: 15%;
                 aspect-ratio: 1/1;
                 display: flex;
             }
 
             .rectangulo_gris{
-                background-color: #b4b4b4;
+                background-color: #656A73;
+                height: 15%;
+                width: 65%;
+                display: flex;
+                margin: 4%;
+            }
+        }
+
+        .rectangulo_negro_grande2{
+            background-color:#FF9978;
+            height: 10%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .cuadrado_gris2{
+                background-color: #ffffff;
+                height: 15%;
+                aspect-ratio: 1/1;
+                display: flex;
+            }
+
+            .rectangulo_gris2{
+                background-color: #ffffff;
                 height: 15%;
                 width: 65%;
                 display: flex;
@@ -112,16 +164,12 @@ main{
     }
 
     aside{
-        background-color: solid transparent;
-        background-color: green;
         height: 85%;
         width: 63%;
 
         margin-left: 4%;
         
         .youtube{
-            background-color: solid transparent;
-            background-color: red;
             width: 100%;
             height: 60%;
 
@@ -134,13 +182,13 @@ main{
                 height: 0;
                 border-top: 4vh solid transparent;
                 border-bottom: 4vh solid transparent;
-                border-right: 4vh solid white; 
+                border-right: 4vh solid #ffffff; 
 
                 margin-top: 19%;
             }
 
             .cuadrado_rojo{
-                background-color: #ff8c00;
+                background-color: #FF9978;
                 height: 95%;
                 aspect-ratio: 1.8/1;
                 margin-left: 6%;
@@ -153,7 +201,7 @@ main{
                 .triangulo_blanco{
                     border-top: 5vh solid transparent;
                     border-bottom: 5vh solid transparent;
-                    border-left: 10vh solid white;
+                    border-left: 10vh solid #ffffff;
                 }
             }
 
@@ -169,8 +217,6 @@ main{
         }
 
         .youtube_videos{
-            background-color: solid transparent;
-            background-color: rgb(17, 0, 255);
             width: 100%;
             height: 40%;
 
@@ -179,8 +225,6 @@ main{
             justify-content: center;
 
             .recommended{
-                background-color: solid transparent;
-                background-color: black;
                 height: 84%;
                 width: 23.7%;
 
@@ -188,8 +232,7 @@ main{
                 margin-right: 2%;
                 
                 .recommended_box{
-                    background-color: solid transparent;
-                    background-color: rgb(255, 255, 255);
+                    background-color: #474F59;
                     height: 50%;
                     width: 100%;
 
@@ -197,28 +240,60 @@ main{
                 }
 
                 .recommended_text{
-                    background-color: solid transparent;
-                    background-color: rgb(255, 255, 255);
                     height: 40%;
                     width: 100%;
 
-                    display: flex;
-                    justify-content: center;
-
                     margin-top: 5%;
 
-                    .text{
-                        background-color: rgb(255, 255, 255);
-                        height: 40%;
+                    .texto{
+                        background-color: #CBCAC9;
+                        height: 15%;
                         width: 100%;
 
-                        display: flex;
-                        justify-content: center;
+                        margin-top: 6%;
+                    }
 
-                        margin-top: 5%;
+                    .texto2{
+                        background-color: #CBCAC9;
+                        height: 15%;
+                        width: 50%;
+                        margin-top: 6%;
                     }
                 }
             }
+        }
+    }
+}
+
+footer{
+    background-color: #474F59;
+    height: 40vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    .box-text{
+        background-color: red;
+        height: 70%;
+        width: 25%;
+
+        margin: 4%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .titulo_texto{
+            background-color: #ffffff;
+        height: 70%;
+        width: 25%;
+        }
+
+        .subtitulo_texto{
+            background-color: #ffffff;
+        height: 70%;
+        width: 25%;
         }
     }
 }
