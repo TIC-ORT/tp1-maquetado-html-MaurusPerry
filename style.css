@@ -87,7 +87,7 @@ nav{
     .rectangulo_blanco{
         background-color: #ffffff;
         height: 30%;
-        aspect-ratio: 9/1;
+        width: 25%;
         display: flex;
         margin-left: auto;
     }  
@@ -95,8 +95,7 @@ nav{
     .cuadrado_naranja{
         background-color: #FF9978;
         height: 30%;
-        aspect-ratio: 1/1;
-        display: flex;   
+        width: 3%; 
         margin-right: 4%;
     }
 }
@@ -190,7 +189,7 @@ main{
             .cuadrado_rojo{
                 background-color: #FF9978;
                 height: 95%;
-                aspect-ratio: 1.8/1;
+                width: 80%;
                 margin-left: 6%;
                 margin-right: 6%;
 
@@ -270,28 +269,69 @@ footer{
     height: 40vh;
     width: 100%;
 
-    display: flex;
-    align-items: center;
-
-    .box-text{
-        background-color: red;
-        height: 70%;
-        width: 25%;
-
-        margin: 4%;
-
+    .footer1{
+        height: 65%;
+        width: 100%;
+     
         display: flex;
+        align-items: center;
 
-        .titulo_texto{
-            background-color: #ffffff;
-            height: 20%;
-            width: 100%;
-        }
+        .box-text{
+            height: 70%;
+            width: 25%;
 
-        .subtitulo_texto{
-            background-color: #ffffff;
-            height: 10%;
-            width: 100%;
+            margin: 4%;
+
+            .titulo_texto{
+                background-color: #656A73;
+                height: 20%;
+                width: 100%;
+
+	            margin-bottom: 5%
+            }   
+
+            .subtitulo_texto{
+                background-color: #656A73;
+                height: 10%;
+                width: 100%;
+
+	            margin-top: 2%;
+            }
+
+            .subtitulo_texto1{
+                background-color: #656A73;
+                height: 10%;
+                width: 70%;
+
+	            margin-top: 2%;
+            }
+
+            .subtitulo_texto2{
+                background-color: #656A73;
+                height: 10%;
+                width: 40%;
+
+	            margin-top: 2%;
+            }
         }
+    }
+
+    .footer2{
+            height: 5%;
+            width: 100%;
+
+            display: flex;
+            align-items: center;
+            justify-content: right;
+
+            margin-top: 2%;
+
+        .linea_baja_negra{
+            background-color: #656A73;
+            height: 100%;
+            width: 10%;
+
+            margin-right: 5%;
+        } 
     }
 }
