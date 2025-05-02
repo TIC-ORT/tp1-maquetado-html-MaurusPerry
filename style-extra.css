@@ -92,8 +92,6 @@ header{
 }
 
 main{
-    background-color: red;
-
     height: 80vh;
     width: 100%;
 
@@ -372,26 +370,67 @@ main{
 
                     margin-bottom: 1%;
 
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
                     .part1{
-                        
-                    }
-                    .perfil-text{
-                        width: 80%;
-                        height: 20%;
-                        background-color: #D3DEE2;
-        
-                        margin-left: 4%;
+                        height: 47.5%;
+                        width: 100%; 
+
+                        margin-bottom: 1%;
+
+                        display: flex;
+                        align-items: center;
+    
+                        .perfil-circle-violeta{
+                            width: 5.4%;
+                            height: 80%;
+                            background-color: #DCA4ED;
+                            border-radius: 50%;
+
+                            margin-left: 7%;
+                        }
+
+                        .rectangulo-texto{
+                            width: 80%;
+                            height: 50%;
+            
+                            margin-left: 4%;
+
+                            .texto1{
+                                width: 20%;
+                                height: 45%;
+                                background-color: #A9CBE7;
+            
+                                margin-left: 4%;
+                                margin-bottom: 1.3%;
+                            }
+
+                            .texto2{
+                                width: 10%;
+                                height: 20%;
+                                background-color: #EBEBEB;
+            
+                                margin-left: 4%;
+                            }
+                        }
                     }
 
-                    .perfil-circle-rojo{
-                        width: 5.4%;
-                        height: 50%;
-                        background-color: #ED9FB4;
-                        border-radius: 50%;
+                    .rectangulo-gris{
+                        background-color: #D4DBE1;
+            
+                        height: 12%;
+                        width: 86%; 
+
+                        margin-left: 7%;
+                        margin-bottom: 1.4%;
+                    }
+
+                    .rectangulo-gris1{
+                        background-color: #D4DBE1;
+            
+                        height: 12%;
+                        width: 60%; 
+
+                        margin-left: 7%;
+                        margin-bottom: 1.4%;
                     }
                 }
 
@@ -491,5 +530,20 @@ main{
                 border-radius: 50%;
             }
         }
+    }
+}
+
+footer{
+    margin-top: 1%;
+    height: 7vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: right;
+
+    .sub-footer{
+        background-color: #ffffff;
+        height: 100%;
+        width: 15%;
     }
 }
