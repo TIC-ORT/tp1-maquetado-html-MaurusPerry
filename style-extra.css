@@ -199,27 +199,231 @@ main{
                     align-items: center;
 
                     .collage-container{
-                        background-color: aqua;
-                        
+                        height: 90%;
+                        width: 90%; 
                         
                         .collage-filas{
-                            background-color: red;
-    
-                            height: 30%;
+                            height: 31%;
                             width: 100%; 
     
-                            margin-top: 3%;
+                            margin-bottom: 3%;
+
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            gap: 6.6%;
+                        }
+
+                        .collage-filas1{
+                            height: 31%;
+                            width: 100%; 
+
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            gap: 6.6%;
+                        }
+
+                        .cuadrado-amarillo{
+                            background-color: #E8DDA5;
     
+                            height: 100%;
+                            width: 29%; 
+                        }
+
+                        .cuadrado-violeta{
+                            background-color: #ABA6E8;
+    
+                            height: 100%;
+                            width: 29%; 
+                        }
+
+                        .cuadrado-azul{
+                            background-color: #A7CCE7;
+    
+                            height: 100%;
+                            width: 29%; 
+                        }
+
+                        .cuadrado-verde{
+                            background-color: #A8E8DA;
+    
+                            height: 100%;
+                            width: 29%; 
+                        }
+
+                        .cuadrado-rosa{
+                            background-color: #D8A7E9;
+    
+                            height: 100%;
+                            width: 29%; 
                         }
                     }
                 }
             }
 
             .section-info2{
-                background-color: red;
-            
                 height: 100%;
                 width: 65%;
+
+                .rectangulo-blanco{
+                    background-color: #ffffff;
+            
+                    height: 15%;
+                    width: 100%; 
+
+                    margin-bottom: 1%;
+
+                    display: flex;
+                    justify-content: right;
+
+                    .rectangulo-gris{
+                        background-color: #D8E2E4;
+            
+                        height: 25%;
+                        width: 10%; 
+    
+                        margin-bottom: 6%; 
+                        margin-right: 7%;
+                        margin-top: 3%;
+                    }
+                }
+
+                .rectangulo-blanco1{
+                    background-color: #ffffff;
+            
+                    height: 20%;
+                    width: 100%; 
+
+                    margin-bottom: 1%;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .perfil-text{
+                        width: 76%;
+                        height: 20%;
+                        background-color: #D3DEE2;
+        
+                        margin-left: 5%;
+                    }
+
+                    .perfil-circle-rojo{
+                        width: 5.4%;
+                        height: 50%;
+                        background-color: #ED9FB4;
+                        border-radius: 50%;
+                    }
+                }
+
+                .rectangulo-blanco2{
+                    background-color: #ffffff;
+            
+                    height: 15%;
+                    width: 100%; 
+
+                    margin-bottom: 2%;
+
+                    display: flex;
+                    justify-content: right;
+
+                    .cuadrado-verde{
+                        background-color: #B7E3A4;
+            
+                        height: 30%;
+                        width: 2.3%; 
+    
+                        margin-bottom: 6%; 
+                        margin-right: 7%;
+                        margin-top: 3%;
+                    }
+
+                    .cuadrado-amarillo{
+                        background-color: #E9E2AC;
+            
+                        height: 30%;
+                        width: 2.3%; 
+    
+                        margin-bottom: 6%; 
+                        margin-right: 7%;
+                        margin-top: 3%;
+                    }
+
+                    .cuadrado-azul{
+                        background-color: #A8CCE6;
+            
+                        height: 30%;
+                        width: 2.3%; 
+    
+                        margin-bottom: 6%; 
+                        margin-right: 7%;
+                        margin-top: 3%;
+                    }
+                }
+
+                .rectangulo-blanco3{
+                    background-color: #ffffff;
+            
+                    height: 26%;
+                    width: 100%; 
+
+                    margin-bottom: 1%;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .part1{
+                        
+                    }
+                    .perfil-text{
+                        width: 80%;
+                        height: 20%;
+                        background-color: #D3DEE2;
+        
+                        margin-left: 4%;
+                    }
+
+                    .perfil-circle-rojo{
+                        width: 5.4%;
+                        height: 50%;
+                        background-color: #ED9FB4;
+                        border-radius: 50%;
+                    }
+                }
+
+                .rectangulo-blanco4{
+                    background-color: #ffffff;
+            
+                    height: 15%;
+                    width: 100%; 
+
+                    display: flex;
+                    align-items: center;
+
+                    .rectangulo-gris{
+                        background-color: #D8E2E4;
+            
+                        height: 25%;
+                        width: 5%; 
+    
+                        margin-left: 7%;
+                    }
+
+                    .rectangulo-gris1{
+                        background-color: #D8E2E4;
+            
+                        height: 15%;
+                        width: 10%; 
+    
+                        margin-left: 2%;
+                        margin-right: 10%;
+                        
+                    }
+                }
             }
         }
     }
