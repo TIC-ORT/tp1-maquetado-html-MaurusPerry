@@ -108,13 +108,12 @@ main{
         justify-content: center;
         
         .sub-section{
-            background-color: red;
             height: 100%;
             width: 85%;
 
             .section-perfil-up{
                 background-color: #EFCB15;
-                height: 40%;
+                height: 33%;
                 width: 100%;
 
                 border: 1px solid #ffffff;
@@ -125,36 +124,36 @@ main{
 
                 .section-perfil-image{
                     background-color: #E9A4B7;
-                    height: 85%;
-                    width: 17%;
+                    height: 90%;
+                    width: 14.8%;
 
-                    border: 12px solid #ffffff;
+                    border: 14px solid #ffffff;
                     border-top: 8px solid #ffffff;
                     border-bottom: 8px solid #ffffff;
 
                     margin-left: 5%;
-                    margin-top: 10%;
+                    margin-top: 7%;
                 }
 
                 .section-perfil-text{
                     height: 20%;
                     width: 20%; 
                     
-                    margin-left: 3.5%;
-                    margin-top: 12%;
+                    margin-left: 2.6%;
+                    margin-top: 8.5%;
 
                     .section-perfil-text1{
                         background-color: #ffffff;
-                        height: 40%;
-                        width: 100%; 
+                        height: 50%;
+                        width: 90%; 
 
-                        margin-bottom: 12%;
+                        margin-bottom: 10%;
                     }
 
                     .section-perfil-text2{
                         background-color: #ffffff;
-                        height: 40%;
-                        width: 70%; 
+                        height: 50%;
+                        width: 60%; 
                     }
                 }
 
@@ -169,8 +168,17 @@ main{
         .section-info{
             background-color: aqua;
             
-            height: 100%;
-            width: 85%;
+            height: 60%;
+            width: 100%;
+
+            margin-top: 4%;
+
+            section-info1{
+                background-color: red;
+            
+                height: 60%;
+                width: 100%;
+            }
         }
     }
 
