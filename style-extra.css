@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EDEDED;
+}
+
+header{
+    height: 11vh;
+    width: 100%;
+
+    .midle-header{
+        background-color: #3B6AB0;
+        height: 85%;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+
+        .logo{
+            background-color: #FFFDFF;
+            height: 50%;
+            width: 2.5%;
+    
+            margin-left: 6%;
+
+            .logo-inside{
+                background-color: #3B6AB0;
+                height: 80%;
+                width: 60%; 
+                
+                /*   
+                    0              0 
+                izquierda        arriba
+                
+                */
+
+                clip-path: polygon(0% 0%, 100% 0%, 50% 50%, 50% 100%, 0% 100%);
+
+                margin-top: 20%;
+                margin-left: 20%;
+            }
+        }
+
+        .rectangulo-blanco{
+            background-color: #FFFDFF;
+            height: 22%;
+            width: 15%;
+
+            margin-left: 4%;
+        }
+
+        .rectangulo-busqueda{
+            background-color: #FFFDFF;
+            height: 50%;
+            width: 38%;
+
+            margin-left: 4%;
+        }
+
+        .rectangulo-blanco1{
+            background-color: #FFFDFF;
+            height: 22%;
+            width: 8%;
+
+            margin-left: 13%;
+        }
+
+        .rectangulo-blanco2{
+            background-color: #FFFDFF;
+            height: 22%;
+            width: 4%;
+
+            margin-left: 1%;
+        }
+    }
+
+    .bottom-header{
+        background-color: #2F599D;
+        height: 10%;
+        width: 100%;
+    }
+
+    .bottom-header1{
+        background-color: #FFFDFF;
+        height: 10%;
+        width: 100%;
+    }
+}
+
+main{
+    background-color: red;
+
+    height: 80vh;
+    width: 100%;
+
+    display: flex;
+
+    section{
+        background-color: aqua;
+        height: 100%;
+        width: 85%;
+        
+    }
+
+    aside{
+        background-color: #ffffff;
+        height: 100%;
+        width: 15%;
+
+        .perfil-box{
+            background-color: yellow;
+            height: 9%;
+            width: 100%; 
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .perfil-circle-violeta{
+                width: 50%;
+                height: 50%;
+                background-color: #A9A3EA;
+                border-radius: 50%;
+            }
+
+            .perfil-text{
+
+            }
+        }
+    }
+}
